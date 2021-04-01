@@ -30,11 +30,7 @@ class lli{
 			temp.next=node;
 		}
 	}
-	public void addtofirst(Node new_node)
-	{
-		 new_node.next=head;
-		 head=new_node;
-	}
+	
 }
 class N{
 	void display(Node head)
@@ -66,9 +62,7 @@ while(t-- > 0)
 	 int a=sc.nextInt();
 	 list.addtothelast(new Node(a));
  }
- int k=sc.nextInt();
- Node new_node=new  Node(k);
- list.addtofirst(new_node);
+
  N obj=new N();
  obj.display(list.head);
  System.out.println();
